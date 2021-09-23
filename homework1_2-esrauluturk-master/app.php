@@ -35,7 +35,7 @@ $age = 25; // yaş (sene)
 
 $guess = "1470"; // Tahmin edilen değer
 
-$guess = (int)$guess; //Tip donusumu
+$guess = floatval($guess); //Tip donusumu
 
 if ($gender == "female") {
   $BMR = 447.593 + (9.247 * $weight) + (3.098 * $height) - (4.330 * $age); //Kadın günlük BMR ihtiyaci
